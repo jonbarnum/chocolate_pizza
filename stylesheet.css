@@ -1,11 +1,10 @@
-
-.imagelogo {
+#imageFork {
     display: inline-block;
     width: 50px;
     margin-right: auto;
     margin-left: auto;
 }
- 
+
 h3 {
     font-size: 45px;
     font-family: 'Damion', cursive;
@@ -20,23 +19,29 @@ h3 {
     font-family: Helvetica, sans-serif;
 }
 
-.pagetitle {
+#pagetitle {
     display: inline-block;
     width: 650px;
     margin-right: auto;
     margin-left: auto;
 }
 
+#socialIcons{
+    display: inline-block;
+}
 
 .socials {
-    display: inline-block;
-    margin-right: auto;
-    margin-left: auto;
+    display: inline-block
+}
+
+#hrTop {
+    border: 2px dashed grey;
 }
 
 h2 {
     font-display: block;
     font-family: Arial;
+    font-weight: bold;
 }
 
 .date {
@@ -44,19 +49,22 @@ h2 {
     font-family: Helvetica, sans-serif;
 }
 
-.ingredients {
-    display: flex;
-    justify-content: center;
+
+
+#notecard {
+
 }
 
+.ingredients {
+    /* display: flex;
+    justify-content: center; */
+}
 ul {
     list-style-type: '☐';
 }
-
 .strike {
-    list-style-type: '☑';
+    list-style-type: ':ballot_box_with_check:';
 }
-
 hr.footerline {
     border: none;
     border-top: 3px double #333;
@@ -65,7 +73,6 @@ hr.footerline {
     text-align: center;
     height: 5px;
 }
-
 hr.footerline:after {
     background: #fff;
     content: 'placeholder' ;
@@ -73,3 +80,22 @@ hr.footerline:after {
     position: relative;
     top: -13px;
 }
+
+
+Message Miguel Fierro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
