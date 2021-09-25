@@ -1,3 +1,5 @@
+b
+
 #imageFork {
     display: inline-block;
     width: 50px;
@@ -50,21 +52,34 @@ h2 {
 }
 
 
-
-#notecard {
-
+#ingredientList {
+    display: flex;
+    justify-content: center;
 }
 
-.ingredients {
-    /* display: flex;
-    justify-content: center; */
+#noteCard{
+    position: absolute;
 }
+
+.list {
+    position: relative;
+    bottom: 250px;
+    right: 100px;
+}
+
+
 ul {
     list-style-type: '☐';
 }
+
 .strike {
-    list-style-type: ':ballot_box_with_check:';
+    list-style-type: '☑';
 }
+
+li{
+    font-size: 25px;
+}
+
 hr.footerline {
     border: none;
     border-top: 3px double #333;
@@ -82,7 +97,6 @@ hr.footerline:after {
 }
 
 
-Message Miguel Fierro
 
 
 
